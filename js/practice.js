@@ -1,4 +1,4 @@
-/* 
+
 	let sHtml = "";
 	sHtml = "<table>";
 	for(let i = 1;i <= 9;i++){
@@ -8,9 +8,9 @@
 		}
 		sHtml += "</tr>";
 	}
-	sHtml += "</table>"; */
+	sHtml += "</table>";
 	
-/* 	function countDown(n){
+	function countDown(n){
 		while(n-- > 0){
 
 			console.log(n);
@@ -20,15 +20,15 @@
 
 	let sdfsdf='undefined';
 console.log(typeof sdfsdf);
- */
 
-/*  	var myVar; */
-/* console.log(
+
+ 	var myVar;
+console.log(
   myVar ?
   'myVar has a value' :
   'myVar do not has a value'
-) */
-/* let result = typeof myVar;
+)
+let result = typeof myVar;
 
 let num = 18;
 let result1 = typeof num;
@@ -45,7 +45,7 @@ console.log(str1 === str2)
 		console.log('myVar do not has a value')
 	}else{
 		console.log('myVar has a value')
-	}  */
+	} 
 let str8 = !undefined;
 var str7 = str8;
 console.log(undefined == null);
@@ -67,3 +67,20 @@ let apple = {
 }; */
 console.log(5 + true)
 
+let obj = {a: 1, b: 2, c: 3};
+
+for (var i in obj) {
+  console.log(obj[i]);
+}
+
+let obj1 = {
+	x: 1,
+	y: 2
+  };
+  let props = [];
+  let g = 0;
+  
+  for (var p in obj1) {
+	props[g++] = p;
+  }
+  console.log(props);
