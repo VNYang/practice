@@ -84,3 +84,12 @@ let obj1 = {
 	props[g++] = p;
   }
   console.log(props);
+
+  function sum(num){
+	  if(num === 0){
+		  return 0;
+	  }
+	  return sum(num-1)+num;
+  }
+
+  console.log(sum(5));
